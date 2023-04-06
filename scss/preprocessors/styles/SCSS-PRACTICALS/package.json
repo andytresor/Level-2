@@ -1,0 +1,14 @@
+{
+  "name": "scss-practicals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "0",
+  "scripts": {
+    "dev": "node-sass STYLES/styles.scss CSS/styles.css"
+  },
+  "author": "Laure",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

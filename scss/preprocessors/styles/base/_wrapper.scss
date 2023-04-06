@@ -1,0 +1,45 @@
+.wrapper{
+    position: inherit;
+    text-align: center;
+    padding-top: 200px;
+    p.hero-text{
+        color: rgba(235, 224, 224, 0.41);
+        opacity: 0.2;
+        position: relative;
+        top: 40px;
+        font-size: 100px;
+    }
+     h1{
+        font-size: 70px;
+         #me{
+            color: rgba(209, 54, 54, 0.931);
+            font-style: italic;
+            font-family: 'Merriweather', serif;
+         }
+     }
+      button.btn{
+        background-color: rgba(209, 54, 54, 0.931);
+        margin: 80px 0px 0px 0px;
+        border-radius: 2px;
+        border: none;
+        outline: none;
+        padding: 8px 25px 8px 25px;
+        a{
+            font-weight: bold;
+
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Catamaran', sans-serif;
+        }
+        // margin-top: 80px !important;
+    }
+    p.heading-description{
+        font-size: 31px;
+        width: 40%;
+        word-spacing: 8px;
+        text-align: center;
+        margin-left: 30%;
+    }
+}

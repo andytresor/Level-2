@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5;
+}
+
+body {
+  font-weight: 400px;
+  font-size: 16px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  position: relative;
+  max-width: 100%;
+  height: 90vh;
+  background-image: url(/assete/img/bg-hero-dark.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  position: inherit;
+  text-align: center;
+  padding-top: 200px;
+}
+.wrapper p.hero-text {
+  color: rgba(235, 224, 224, 0.41);
+  opacity: 0.2;
+  position: relative;
+  top: 40px;
+  font-size: 100px;
+}
+.wrapper h1 {
+  font-size: 70px;
+}
+.wrapper h1 #me {
+  color: rgba(209, 54, 54, 0.931);
+  font-style: italic;
+  font-family: "Merriweather", serif;
+}
+.wrapper button.btn {
+  background-color: rgba(209, 54, 54, 0.931);
+  margin: 80px 0px 0px 0px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  padding: 8px 25px 8px 25px;
+}
+.wrapper button.btn a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Catamaran", sans-serif;
+}
+.wrapper p.heading-description {
+  font-size: 31px;
+  width: 40%;
+  word-spacing: 8px;
+  text-align: center;
+  margin-left: 30%;
+}/*# sourceMappingURL=styles.css.map */

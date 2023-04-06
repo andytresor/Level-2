@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "sass": "^1.57.1"
+  },
+  "name": "preprocessors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node-sass styles.scss /css/styles.css"
+  },
+  "author": "andytresor",
+  "license": "ISC",
+  "description": ""
+}
