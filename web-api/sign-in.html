@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-In</title>
+    <link rel="stylesheet" href="./sign-in.css">
+</head>
+<body>
+    <div class="center">
+        <h1 style="color: orange;">Login</h1>
+        <form id="login">
+         <div class="txt_field"> 
+            <input type="email" id="em" required>
+            <label>Email</label>
+         </div>
+         <div class="txt_field"> 
+          <input type="password" id="pd" required>
+           <label>Password</label>
+         </div>
+         <div class="pass">Forgot Password?</div>
+         <input type="submit" value="Login">
+         <div class="signup_link" style="color: orange;">
+         Not a member?
+         </div>
+        </form>
+    </div>
+
+    <script>
+
+let login = document.getElementById('login');
+
+login.addEventListener('submit', (e) => {
+    // Data from login form
+    let logineMail = document.getElementById("em").value;
+    let loginpWord = document.getElementById("pd").value;
+
+
+    // Data from the local storage
+    let localXname = localStorage.getItem("form");
+    let localParsedData = JSON.parse(localXname);
+    
+ 
+    // Destructuring localParsedData
+    let {logineMail: localStorageeMail, loginpWord: localStoragepWord} = localParsedData;
+console.log({localStorageeMail, localStoragepWord});
+
+    if(logineMail == localStorageeMail && loginpWord == localStoragepWord){
+        alert('succesfully login');
+    } else{
+        alert('invalid credentials');
+    }    
+
+});
+
+    
+    </script>
+</body>
+</html>
